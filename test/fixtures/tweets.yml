@@ -2,8 +2,16 @@
 
 one:
   content: MyText
+<<<<<<< HEAD
   user: one
 
 two:
   content: MyText
   user: two
+=======
+  user_id: 1
+
+two:
+  content: MyText
+  user_id: 1
+>>>>>>> 003a6a86eaa0dc910f09d3cb95fdc47fc4f02fc1

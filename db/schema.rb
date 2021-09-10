@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_09_09_213357) do
 
   create_table "relationships", force: :cascade do |t|
@@ -18,13 +19,19 @@ ActiveRecord::Schema.define(version: 2021_09_09_213357) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+=======
+ActiveRecord::Schema.define(version: 2021_08_13_153630) do
+>>>>>>> 003a6a86eaa0dc910f09d3cb95fdc47fc4f02fc1
 
   create_table "tweets", force: :cascade do |t|
     t.text "content"
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.index ["user_id"], name: "index_tweets_on_user_id"
+=======
+>>>>>>> 003a6a86eaa0dc910f09d3cb95fdc47fc4f02fc1
   end
 
   create_table "users", force: :cascade do |t|
@@ -32,7 +39,10 @@ ActiveRecord::Schema.define(version: 2021_09_09_213357) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.string "password_digest"
+=======
+>>>>>>> 003a6a86eaa0dc910f09d3cb95fdc47fc4f02fc1
   end
 
 end
