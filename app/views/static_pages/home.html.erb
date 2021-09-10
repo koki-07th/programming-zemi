@@ -27,9 +27,10 @@
                 <% end %>
             </section>
         </aside>
+
         <div class="col-md-8">
         <% if @tweets.any? %>
-        <%= will_paginate @tweets %>
+            <%= will_paginate @tweets %>
             <ol class="tweets">
                 <% @tweets.each do |tweet| %>
                     <li id="tweet-<%= tweet.id %>">
